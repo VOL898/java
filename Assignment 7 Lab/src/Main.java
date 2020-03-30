@@ -68,7 +68,7 @@ public class Main {
                         System.out.print("Input pay per hour[>=10000]: ");
                         payPerHour = scanner.nextLine();
                         char[] temp = payPerHour.toCharArray();
-                        if (payPerHour.length() >= 5 || temp[0] > 0) {
+                        if (payPerHour.length() >= 5 && temp[0] > 0) {
                             break;
                         }
                     } while (true);
@@ -94,7 +94,7 @@ public class Main {
                         System.out.print("Input base salary[>=10000]: ");
                         baseSalary = scanner.nextLine();
                         char[] temp = baseSalary.toCharArray();
-                        if (baseSalary.length() >= 5 || temp[0] > 0) {
+                        if (baseSalary.length() >= 5 && temp[0] > 0) {
                             break;
                         }
                     } while (true);
@@ -123,17 +123,18 @@ public class Main {
                     System.in.read();
                     help.cls();
                 } else {
-                    int index = 0;
+                    int index = -1;
                     do{
                         try{
                             System.out.print("Input employee number that want to resign[1.." + employeeList.size() + "]: ");
                             index = scanner.nextInt();
                         } catch (Exception e){
-                            index = 0;
+                            index = -1;
                         } finally {
                             scanner.nextLine();
                         }
                     } while( index < 1 || index > employeeList.size() );
+                    --index;
                     if(employeeList.get(index).getStatus().equals("active")){
                         System.out.println(employeeList.get(index).getName() + " is resigning...");
                         employeeList.get(index).setStatus("not active");
