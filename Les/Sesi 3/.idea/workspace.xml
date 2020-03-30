@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96b081ba-b192-4e38-a8f5-98df76bf11ec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z9aBAbVFqv847ISqkIpoZ9LKs6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Sesi 3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96b081ba-b192-4e38-a8f5-98df76bf11ec" name="Default Changelist" comment="" />
+      <created>1584253625188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584253625188</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="772" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1584259228732">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="772" y="242" key="#com.intellij.ide.util.MemberChooser/0.26.1920.1054@0.26.1920.1054" timestamp="1584259228732" />
+    <state x="0" y="26" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584255174944">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="0" y="26" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.26.1920.1054@0.26.1920.1054" timestamp="1584255174944" />
+    <state x="747" y="313" key="FileChooserDialogImpl" timestamp="1584930854115">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="747" y="313" key="FileChooserDialogImpl/0.26.1920.1054@0.26.1920.1054" timestamp="1584930854115" />
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1584286659902">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom/0.26.1920.1054@0.26.1920.1054" timestamp="1584286659902" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1584286659901">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1874" height="287" key="GridCell.Tab.0.center/0.26.1920.1054@0.26.1920.1054" timestamp="1584286659901" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1584286659900">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1874" height="287" key="GridCell.Tab.0.left/0.26.1920.1054@0.26.1920.1054" timestamp="1584286659900" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1584286659902">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1874" height="287" key="GridCell.Tab.0.right/0.26.1920.1054@0.26.1920.1054" timestamp="1584286659902" />
+    <state width="1874" height="354" key="GridCell.Tab.1.bottom" timestamp="1584286659891">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.bottom/0.26.1920.1054@0.26.1920.1054" timestamp="1584286659891" />
+    <state width="1874" height="354" key="GridCell.Tab.1.center" timestamp="1584286659890">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.center/0.26.1920.1054@0.26.1920.1054" timestamp="1584286659890" />
+    <state width="1874" height="354" key="GridCell.Tab.1.left" timestamp="1584286659890">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.left/0.26.1920.1054@0.26.1920.1054" timestamp="1584286659890" />
+    <state width="1874" height="354" key="GridCell.Tab.1.right" timestamp="1584286659891">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.right/0.26.1920.1054@0.26.1920.1054" timestamp="1584286659891" />
+    <state x="1084" y="166" width="706" height="776" key="new project wizard" timestamp="1584930595958">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="1084" y="166" width="706" height="776" key="new project wizard/0.26.1920.1054@0.26.1920.1054" timestamp="1584930595958" />
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1584258305894">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup/0.26.1920.1054@0.26.1920.1054" timestamp="1584258305894" />
+  </component>
+</project>

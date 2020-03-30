@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5295a732-b5bb-43d2-ba89-d6502f7e5397" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YpidnS5NClhgjFuelX7VG9O8KS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5295a732-b5bb-43d2-ba89-d6502f7e5397" name="Default Changelist" comment="" />
+      <created>1583646025323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583646025323</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="423" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583646141611">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="423" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.26.1920.1054@0.26.1920.1054" timestamp="1583646141611" />
+    <state x="772" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1583646220545">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="772" y="242" key="#com.intellij.ide.util.MemberChooser/0.26.1920.1054@0.26.1920.1054" timestamp="1583646220545" />
+    <state x="696" y="341" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583646139920">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="696" y="341" key="#com.intellij.ide.util.TreeClassChooserDialog/0.26.1920.1054@0.26.1920.1054" timestamp="1583646139920" />
+    <state x="447" y="132" key="SettingsEditor" timestamp="1583646291139">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="447" y="132" key="SettingsEditor/0.26.1920.1054@0.26.1920.1054" timestamp="1583646291139" />
+  </component>
+</project>
