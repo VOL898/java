@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public Main() throws IOException {
 
         MainHelper help = new MainHelper();
         Scanner scanner = new Scanner(System.in);
@@ -148,5 +148,9 @@ public class Main {
                 }
             }
         }while(choice!=4);
+    }
+
+    public static void main(String[] args) throws IOException {
+        new Main();
     }
 }
