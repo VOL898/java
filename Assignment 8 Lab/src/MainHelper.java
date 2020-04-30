@@ -95,10 +95,11 @@ public class MainHelper {
             System.out.println("+ No Zoo Animal Spotted                                 +");
         } else {
             for( int i = 0; i < animalList.size(); ++i ){
-                String name = animalList.get(i).getName();
-                String genus = animalList.get(i).getGenus();
-                String mood = animalList.get(i).getMood();
-                String gender = animalList.get(i).getGender();
+                Animal x = animalList.get(i);
+                String name = x.getName();
+                String genus = x.getGenus();
+                String mood = x.getMood();
+                String gender = x.getGender();
                 String out = String.format("+ %-3d | %-15s | %-8s | %-9s | %-6s +", (i+1), name, genus, mood, gender );
                 System.out.println(out);
             }

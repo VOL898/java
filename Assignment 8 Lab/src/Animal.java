@@ -42,4 +42,5 @@ public class Animal {
     public int getSpeed() {
         return speed;
     }
+
 }

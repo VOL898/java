@@ -121,10 +121,12 @@ public class Main {
                                 System.out.println("ruff ruff <3");
                                 if( random > releaseWhich ){
                                     animalList.remove(releaseWhich);
-                                    animalList.remove((random - 1));
+                                    --random;
+                                    animalList.remove(random);
                                 } else {
                                     animalList.remove(random);
-                                    animalList.remove((releaseWhich - 1));
+                                    --releaseWhich;
+                                    animalList.remove(releaseWhich);
                                 }
                                 --canines;
                                 --canines;
@@ -142,10 +144,12 @@ public class Main {
                                 System.out.println("meow meow <3");
                                 if( random > releaseWhich ){
                                     animalList.remove(releaseWhich);
-                                    animalList.remove((random - 1));
+                                    --random;
+                                    animalList.remove(random);
                                 } else {
                                     animalList.remove(random);
-                                    animalList.remove((releaseWhich - 1));
+                                    --releaseWhich;
+                                    animalList.remove(releaseWhich);
                                 }
                                 --felines;
                                 --felines;
