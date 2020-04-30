@@ -69,7 +69,7 @@ public class Main {
                     String genus = animalList.get((walkWhich-1)).getGenus();
                     int totalRange = 0;
                     if( genus.equals("feline") ){
-                        int random = rand.nextInt(1);
+                        int random = rand.nextInt(2); // rand.nextInt(1) cuma bakal nge return 0 HAHAHA
                         Feline temp = (Feline)animalList.get((walkWhich-1));
                         int speed = temp.getSpeed();
                         if( random == 0 ){
@@ -111,6 +111,12 @@ public class Main {
                     int releaseWhich = help.reqRelease(size);
                     --releaseWhich;
                     int random = rand.nextInt(size);
+
+                    //code gw owo
+                    do{
+                        random = rand.nextInt(size);
+                    } while(size != 1 && random == releaseWhich);
+
                     String genus = animalList.get(releaseWhich).getGenus();
                     String gender = animalList.get(releaseWhich).getGender();
                     if( genus.equals("canine") ){
@@ -119,15 +125,22 @@ public class Main {
                             String randGender = animalList.get(random).getGender();
                             if( !gender.equals(randGender) ){
                                 System.out.println("ruff ruff <3");
-                                if( random > releaseWhich ){
-                                    animalList.remove(releaseWhich);
-                                    --random;
-                                    animalList.remove(random);
-                                } else {
-                                    animalList.remove(random);
-                                    --releaseWhich;
-                                    animalList.remove(releaseWhich);
-                                }
+                                //jangan gini owo
+                                //lu bisa nge remove dari ArrayList pake valuenya
+                                //jadi remove pake itu aja jangan pake index umu
+//                                 if( random > releaseWhich ){
+//                                     animalList.remove(releaseWhich);
+//                                     --random;
+//                                     animalList.remove(random);
+//                                 } else {
+//                                     animalList.remove(random);
+//                                     --releaseWhich;
+//                                     animalList.remove(releaseWhich);
+//                                 }
+
+                                Animal animal1 = animalList.get(releaseWhich), animal2 = animalList.get(random);
+                                animalList.remove(animal1);
+                                animalList.remove(animal2);
                                 --canines;
                                 --canines;
                             } else {
@@ -142,15 +155,22 @@ public class Main {
                             String randGender = animalList.get(random).getGender();
                             if( !gender.equals(randGender) ){
                                 System.out.println("meow meow <3");
-                                if( random > releaseWhich ){
-                                    animalList.remove(releaseWhich);
-                                    --random;
-                                    animalList.remove(random);
-                                } else {
-                                    animalList.remove(random);
-                                    --releaseWhich;
-                                    animalList.remove(releaseWhich);
-                                }
+                                //jangan gini owo
+                                //lu bisa nge remove dari ArrayList pake valuenya
+                                //jadi remove pake itu aja jangan pake index umu
+//                                if( random > releaseWhich ){
+//                                    animalList.remove(releaseWhich);
+//                                    --random;
+//                                    animalList.remove(random);
+//                                } else {
+//                                    animalList.remove(random);
+//                                    --releaseWhich;
+//                                    animalList.remove(releaseWhich);
+//                                }
+
+                                Animal animal1 = animalList.get(releaseWhich), animal2 = animalList.get(random);
+                                animalList.remove(animal1);
+                                animalList.remove(animal2);
                                 --felines;
                                 --felines;
                             } else {
