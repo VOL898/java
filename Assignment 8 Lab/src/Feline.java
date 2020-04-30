@@ -1,15 +1,13 @@
 public class Feline extends Animal {
 
-    public Feline(String name, String gender, String genus, int felines, int maxFelines) {
-        super( name, gender, genus, 40 );   //default speed for feline is 40
+    public Feline(String name, String gender, String genus, int speed, int felines, int maxFelines) {
+        super( name, gender, genus, speed );
         generateMood( felines, maxFelines );
     }
 
     @Override
     public void generateMood( int felines, int maxFelines ) {
-        if( felines == 1 ){
-            this.mood = "unhappy";
-        } else if( felines < maxFelines ){
+        if( felines == 1 || felines < maxFelines ){
             this.mood = "unhappy";
         } else {
             this.mood = "happy";

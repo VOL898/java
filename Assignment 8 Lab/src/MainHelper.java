@@ -52,25 +52,19 @@ public class MainHelper {
 
     public String reqGender(){
         String gender;
-        do{
+        do {
             System.out.print("What's its gender [male | female]? ");
             gender = scanner.nextLine();
-            if( gender.equals("male") || gender.equals("female") ){
-                break;
-            }
-        } while(true);
+        } while (!gender.equals("male") && !gender.equals("female"));
         return gender;
     }
 
     public String reqGenus(){
         String genus;
-        do{
+        do {
             System.out.print("What's it's genus [canine | feline]? ");
             genus = scanner.nextLine();
-            if( genus.equals("canine") || genus.equals("feline") ){
-                break;
-            }
-        } while(true);
+        } while (!genus.equals("canine") && !genus.equals("feline"));
         return genus;
     }
 
@@ -153,14 +147,14 @@ public class MainHelper {
     }
 
     public void updateMoods( ArrayList<Animal> animalList, int canines, int maxCanines, int felines, int maxFelines ){
-        for( int i = 0; i < animalList.size(); ++i ){
-            String tempGenus = animalList.get(i).getGenus();
-            if( tempGenus.equals("canine") ){
-                Canine temp = (Canine)animalList.get(i);
-                temp.generateMood( canines, maxCanines );
-            } else if( tempGenus.equals("feline") ){
-                Feline temp = (Feline)animalList.get(i);
-                temp.generateMood( felines, maxFelines );
+        for (Animal animal : animalList) {
+            String tempGenus = animal.getGenus();
+            if (tempGenus.equals("canine")) {
+                Canine temp = (Canine) animal;
+                temp.generateMood(canines, maxCanines);
+            } else if (tempGenus.equals("feline")) {
+                Feline temp = (Feline) animal;
+                temp.generateMood(felines, maxFelines);
             }
         }
     }

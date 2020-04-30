@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
 
     protected String name;
     protected String gender;
@@ -10,15 +10,7 @@ public class Animal {
         return mood;
     }
 
-    public void generateMood( int animals, int maxOfAnimals ){
-        if( animals == 1 ){
-            this.mood = "happy";
-        } else if( animals < maxOfAnimals ){
-            this.mood = "happy";
-        } else {
-            this.mood = "unhappy";
-        }
-    }
+    public abstract void generateMood(int animals, int maxOfAnimals);
 
     public Animal(String name, String gender, String genus, int speed ){
         this.name = name;
@@ -26,7 +18,6 @@ public class Animal {
         this.genus = genus;
         this.speed = speed;
     }
-
     public String getName() {
         return name;
     }
