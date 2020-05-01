@@ -10,7 +10,7 @@ public abstract class Animal {
         return mood;
     }
 
-    public abstract void generateMood(int animals, int maxOfAnimals);
+    public abstract void generateMood( int animals, int maxOfAnimals );
 
     public Animal(String name, String gender, String genus, int speed ){
         this.name = name;
@@ -18,17 +18,11 @@ public abstract class Animal {
         this.genus = genus;
         this.speed = speed;
     }
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
 
-    public String getGender() {
-        return gender;
-    }
+    public String getGender() { return gender; }
 
-    public String getGenus() {
-        return genus;
-    }
+    public String getGenus() { return genus; }
 
     public int getSpeed() {
         return speed;

@@ -7,11 +7,11 @@ public class Canine extends Animal {
 
     @Override
     public void generateMood( int canines, int maxCanines ) {
-        if( canines == 1 || canines < maxCanines ){
+        if( canines == 1 || canines < maxCanines )
             this.mood = "happy";
-        } else {
+        else
             this.mood = "unhappy";
-        }
+
     }
 
 }

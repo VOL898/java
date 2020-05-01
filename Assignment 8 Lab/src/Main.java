@@ -42,9 +42,9 @@ public class Main {
                     ++canines;
                     ++maxCanines;
                 } else {
-                    int speed = rand.nextInt(80);
+                    int speed = rand.nextInt(50);
                     if( speed == 0 ){
-                        speed = 80;
+                        speed = 50;
                     }
                     Feline x = new Feline( name, gender, genus, speed, felines, maxFelines );
                     animalList.add(x);
@@ -53,14 +53,14 @@ public class Main {
                 }
                 System.out.println("Another animal has joined the zoo!!");
                 System.out.println();
-                System.out.println("Press ENTER to continue...");
+                System.out.print("Press ENTER to continue...");
                 scanner.nextLine();
                 help.cls();
             } else if( choice == 2 ){                                                                   //View
                 help.cls();
                 help.displayAnimals( animalList );
                 System.out.println();
-                System.out.println("Press ENTER to continue...");
+                System.out.print("Press ENTER to continue...");
                 scanner.nextLine();
                 help.cls();
             } else if( choice == 3 ){                                                                   //Walk
@@ -106,7 +106,7 @@ public class Main {
                     }
                 }
                 System.out.println();
-                System.out.println("Press ENTER to continue...");
+                System.out.print("Press ENTER to continue...");
                 scanner.nextLine();
                 help.cls();
             } else if( choice == 4 ){                                                                   //Release
@@ -141,6 +141,10 @@ public class Main {
                                 animalList.remove(releaseWhich);
                                 --canines;
                             }
+                        } else {
+                            System.out.println("awooo!!");
+                            animalList.remove(releaseWhich);
+                            --canines;
                         }
                     } else if( genus.equals("feline") ){
                         String randGenus = animalList.get(random).getGenus();
@@ -164,11 +168,15 @@ public class Main {
                                 animalList.remove(releaseWhich);
                                 --felines;
                             }
-                        }
+                        } else {
+                        System.out.println("hiss!!");
+                        animalList.remove(releaseWhich);
+                        --felines;
+                    }
                     }
                 }
                 System.out.println();
-                System.out.println("Press ENTER to continue...");
+                System.out.print("Press ENTER to continue...");
                 scanner.nextLine();
                 help.cls();
             }
