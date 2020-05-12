@@ -1,0 +1,13 @@
+Assignment 4 (GSLC)
+
+Dalam Object Oriented, struktur data dikenal sebagai object container yang menyimpan object lainnya.
+Class ArrayList merupakan struktur data yang menyimpan elemen dalam list supaya mudah digunakan dengan efifien.
+Hal ini dikenal sebagai Java Collection Framework.
+Implementasi selain ArrayList adalah dengan Vector, Stack, Queue dan Priority Queue.
+
+Jelaskan bagaimana implementasi interface collection dengan  stack, queue dan priority queue? Berikan contoh programnya.
+(Silakan Refer ke Buku Introduction to Java Programming, Chapter 20.)
+Jawaban dibuat dalam Ms Word.
+
+=============================================================================
+

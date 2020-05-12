@@ -22,7 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment 6/Assignment 6" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -57,10 +57,11 @@
       <screen x="0" y="26" width="1920" height="1054" />
     </state>
     <state x="772" y="242" key="#com.intellij.ide.util.MemberChooser/0.26.1920.1054@0.26.1920.1054" timestamp="1583650744845" />
-    <state x="1224" y="310" width="432" height="486" key="FileChooserDialogImpl" timestamp="1585548487199">
-      <screen x="0" y="26" width="1920" height="1054" />
+    <state x="2055" y="22" width="317" height="1058" key="FileChooserDialogImpl" timestamp="1588231464951">
+      <screen x="1366" y="0" width="1080" height="2560" />
     </state>
-    <state x="1224" y="310" width="432" height="486" key="FileChooserDialogImpl/0.26.1920.1054@0.26.1920.1054" timestamp="1585548487199" />
+    <state x="1224" y="310" width="432" height="486" key="FileChooserDialogImpl/0.26.1920.1054@0.26.1920.1054" timestamp="1585469860714" />
+    <state x="2055" y="22" width="317" height="1058" key="FileChooserDialogImpl/1366.0.1080.2560/0.156.1366.768@1366.0.1080.2560" timestamp="1588231464951" />
     <state width="906" height="285" key="GridCell.Tab.0.bottom" timestamp="1585539610964">
       <screen x="0" y="26" width="1920" height="1054" />
     </state>
@@ -93,9 +94,9 @@
       <screen x="0" y="26" width="1920" height="1054" />
     </state>
     <state width="1874" height="354" key="GridCell.Tab.1.right/0.26.1920.1054@0.26.1920.1054" timestamp="1583651974441" />
-    <state x="606" y="169" width="700" height="777" key="new project wizard" timestamp="1585548488494">
+    <state x="606" y="169" width="700" height="777" key="new project wizard" timestamp="1584027856711">
       <screen x="0" y="26" width="1920" height="1054" />
     </state>
-    <state x="606" y="169" width="700" height="777" key="new project wizard/0.26.1920.1054@0.26.1920.1054" timestamp="1585548488494" />
+    <state x="606" y="169" width="700" height="777" key="new project wizard/0.26.1920.1054@0.26.1920.1054" timestamp="1584027856711" />
   </component>
 </project>

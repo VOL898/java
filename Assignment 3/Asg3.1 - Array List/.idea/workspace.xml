@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a81148b-57c2-4ebf-834a-c0593110a8d5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YpkUDQ8CEq4AbIyb54PsN6J3Wz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a81148b-57c2-4ebf-834a-c0593110a8d5" name="Default Changelist" comment="" />
+      <created>1583646936838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583646936838</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="747" y="299" key="FileChooserDialogImpl" timestamp="1583648928376">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="747" y="299" key="FileChooserDialogImpl/0.26.1920.1054@0.26.1920.1054" timestamp="1583648928376" />
+    <state x="610" y="168" key="new project wizard" timestamp="1583648930672">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="610" y="168" key="new project wizard/0.26.1920.1054@0.26.1920.1054" timestamp="1583648930672" />
+  </component>
+</project>

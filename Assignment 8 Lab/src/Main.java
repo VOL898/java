@@ -29,7 +29,7 @@ public class Main {
                     scanner.nextLine();
                 }
                 help.cls();
-            } while( choice < 1 | choice > 5 );
+            } while( choice < 1 || choice > 5 );
             if( choice == 1 ){                                                                          //Add
                 help.cls();
                 String name = help.reqName();

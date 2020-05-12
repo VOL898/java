@@ -22,7 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Les/Sesi 3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -57,10 +57,12 @@
       <screen x="0" y="26" width="1920" height="1054" />
     </state>
     <state x="1248" y="239" key="#com.intellij.ide.util.MemberChooser/0.26.1920.1054@0.26.1920.1054" timestamp="1585558325122" />
-    <state x="1223" y="310" key="FileChooserDialogImpl" timestamp="1585560682419">
-      <screen x="0" y="26" width="1920" height="1054" />
+    <state x="2921" y="253" width="424" height="480" key="FileChooserDialogImpl" timestamp="1588266747863">
+      <screen x="1366" y="0" width="2560" height="1080" />
     </state>
     <state x="1223" y="310" key="FileChooserDialogImpl/0.26.1920.1054@0.26.1920.1054" timestamp="1585560682419" />
+    <state x="2022" y="600" key="FileChooserDialogImpl/1366.0.1080.2560/0.156.1366.768@1366.0.1080.2560" timestamp="1588231434984" />
+    <state x="2921" y="253" width="424" height="480" key="FileChooserDialogImpl/1366.0.2560.1080/0.156.1366.768@1366.0.2560.1080" timestamp="1588266747863" />
     <state width="1874" height="286" key="GridCell.Tab.0.bottom" timestamp="1585986302340">
       <screen x="0" y="26" width="1920" height="1054" />
     </state>

@@ -1,0 +1,9 @@
+For Assignment 9, you should watch this video then answer the following questions and submit your answer to Assignment 9.
+
+Video on youtube:
+https://www.youtube.com/watch?v=9m7AUD3ICXg
+
+Question:
+1. Explain the programming case in that video!
+2. Explain the polymorphism concept in that program!
+3. Why we need abstract class, interface & implements? 
