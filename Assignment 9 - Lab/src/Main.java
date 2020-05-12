@@ -35,20 +35,38 @@ public class Main {
                 Runner x;
                 String type, name;
                 int len;
-                do {
-                    System.out.print("Which animal will you rooting for [hare | turtle]? ");
-                    type = scan.nextLine();
-                } while (!type.equals("turtle") && !type.equals("hare"));
+
+                /**
+		 * do {
+                 *   System.out.print("Which animal will you rooting for [hare | turtle]? ");
+                 *   type = scan.nextLine();
+                 * } while (!type.equals("turtle") && !type.equals("hare"));
+		*/
+
+		Type _type = Type.UNDEFINED;
+
+		do {
+			System.out.print("Which animal will you rooting for [hare | turtle]? ");
+			_type = Type.from( scan.nextLine() );
+		} while ( _type.isUndefined() );
+
                 do {
                     System.out.print("What's the name [5 -15 characters]? ");
                     name = scan.nextLine();
                     len = name.length();
                 } while (!(len > 4 & len < 16));
-                if( type.equals("turtle") ) {
-                    x = new Turtle( name, 0 );
-                } else {
-                    x = new Hare( name, 0 );
-                }
+
+
+		/**
+		 * if( type.equals("turtle") ) {
+                 *   x = new Turtle( name, 0 );
+                 * } else {
+                 *   x = new Hare( name, 0 );
+                 * }
+		*/
+
+		x = Runner.create(_type, name, 0);
+
                 runnerList.add(x);
                 System.out.println("Another runner has joined the race!!");
                 help.holdUser();

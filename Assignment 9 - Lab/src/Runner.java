@@ -37,4 +37,12 @@ abstract public class Runner implements Speed {
     public int getDistance() {
         return distance;
     }
+
+    public static Runner create(Type type, String name, int distance) {
+	    if ( type.isHare() ) {
+		    return new Hare(name, distance);
+	    }
+
+	    return new Turtle(name, distance);
+    }
 }
